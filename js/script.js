@@ -23,5 +23,13 @@ $( document ).ready(function() {
 // Create the sentenceToPigLatin function that takes a sentence as a parameter
 	//Loops through all the words in the sentence and transforms each word
 	//It should return a transfromed sentance
+function sentenceToPigLatin(sentence){
+   var words = sentence.split(' ');
+}
+ 
+$( "#submit" ).click(function() {
+  alert( "click() called." );
+});
 
 
+     
